@@ -11,8 +11,12 @@ logging.basicConfig(
 )
 
 logging.getLogger("httpx").setLevel(logging.ERROR)
-logging.getLogger("pyrogram").setLevel(logging.ERROR)
+logging.getLogger("pyrogram").setLevel(logging.CRITICAL)
 logging.getLogger("pytgcalls").setLevel(logging.ERROR)
+logging.getLogger("pymongo").setLevel(logging.CRITICAL)
+logging.getLogger("yt-dlp").setLevel(logging.ERROR)
+logging.getLogger("asyncio").setLevel(logging.CRITICAL)
+
 
 
 def LOGGER(name: str) -> logging.Logger:
