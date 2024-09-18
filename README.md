@@ -8,7 +8,7 @@ apt update && apt install tzdata docker.io -y
 
 ### Clone repo on server
 ```
-git clone https://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@github.com/Mrcutex1/dark2
+git clone https://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@github.com/Mrcutex1/dark2
 ```
 
 ### Edit .env to make changes in bot vars.
@@ -26,7 +26,7 @@ cd  alexa-aio && pip3 install -r requierments.txt && chmod 777 * &&  bash start
 ## Deploy on Docker 
 1. Clone repo and install docker and build image and run docker.
 ```
-cd && git clone https://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@github.com/Mrcutex1/dark2 && cd dark2 && chmod 777 * && bash docker.sh 
+cd && git clone https://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@github.com/Mrcutex1/dark2 && cd dark2 && chmod 777 * && bash docker.sh 
 ```
 
 If docker is already installed you can clone repo and build with a tag and run with below code make sure you are in cloned repo folder.
@@ -38,7 +38,7 @@ If docker is already installed you can clone repo and build with a tag and run w
 To restart or redoply bot thay you have already edited/created.
 
 ```
-docker container rm alexa -f && docker image rm alexa && cd && rm -R alexa && git clone https://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@github.com/Mrcutex1/dark2 && cd dark2 docker build -t alexa . &&  docker run -d --restart=unless-stopped --name alexa alexa
+docker container rm alexa -f && docker image rm alexa && cd && rm -R alexa && git clone https://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@github.com/Mrcutex1/dark2 && cd dark2 docker build -t alexa . &&  docker run -d --restart=unless-stopped --name alexa alexa
 ```
 
     
