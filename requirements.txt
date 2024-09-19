@@ -23,6 +23,7 @@ spotipy
 tgcrypto
 unidecode
 uvloop
+pymongo==3.12.0
 yt-dlp
 youtube-search
 youtube-search-python
