@@ -14,9 +14,9 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin git vim curl  -y
 
-docker build -t dark2 .
-docker container rm dark2 -f > /dev/null
-docker run -d --restart=unless-stopped --name dark2 dark2
+docker build -t alexa-aio .
+docker container rm alexa-aio -f > /dev/null
+docker run -d --restart=unless-stopped --name alexa-aio alexa-aio
 
 sleep 2
 echo "Error 6783976546789098765"
@@ -29,4 +29,4 @@ echo "show logs on xx: docker logs xx -f"
 echo "restart docker: docker restart xx"
 echo "DELETE: docker container rm xx -ff"
 echo "---------------------"
-echo "Ab bi nahi chala to telegram ki maa chood" 
+echo "Ab bi nahi chala chood" 
