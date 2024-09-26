@@ -43,7 +43,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ace_networkop")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+JoSPjg4d91QzMWNl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", false))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 ASSISTANT_LEAVE_TIME = bool(getenv("ASSISTANT_LEAVE_TIME",  6500))
 
 # Get this credentials from https://developer.spotify.com/dashboard
